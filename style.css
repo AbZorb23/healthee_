@@ -1,3 +1,63 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #1cb5e0, #000851);
+  color: #333;
+  text-align: center;
+}
+
+.page {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #ffffffee, #f0faffee);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+input, select, button, textarea {
+  width: 90%;
+  margin: 12px auto;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+button {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  transform: scale(1.05);
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  font-size: 14px;
+  background: #f5f5f5;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Login video background */
 #loginPage {
   position: relative;
   height: 100vh;
@@ -25,4 +85,5 @@
   border-radius: 12px;
   width: 90%;
   max-width: 360px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
