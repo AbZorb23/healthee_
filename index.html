@@ -131,16 +131,22 @@
   </div>
 
   <!-- Stretching Tutorial Page -->
-  <div class="page hidden" id="stretchingPage">
-    <h2>🧘 Stretching Tutorial</h2>
-    <video controls>
-      <source src="stretchingvideo.mp4" type="video/mp4" /
-    </video>
-    <br>
-    <a href="stretchingvideo.mp4" download>
-      <button>⬇️ Download Video</button>
-      <button onclick="switchPage('mainPage')">⬅️ Back to Main Menu</button>
-    </a>
+<div class="page hidden" id="stretchingPage">
+  <h2>🧘 Stretching Tutorial</h2>
+
+  <video controls width="640" height="360">
+    <source src="stretchingvideo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <br><br>
+
+  <a href="stretchingvideo.mp4" download>
+    <button>⬇️ Download Video</button>
+  </a>
+
+  <button onclick="switchPage('mainPage')">⬅️ Back to Main Menu</button>
+</div>
 
 <button onclick="switchPage('mainPage')">⬅️ Back to Main Menu</button>
     <a href="stretchingvideo.mp4" download><button>⬇️ Download Video</button></a>
