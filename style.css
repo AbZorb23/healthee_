@@ -1,0 +1,28 @@
+#loginPage {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#loginVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#loginContent {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 360px;
+}
