@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  color: #fff;
+  text-align: center;
+}
+.page {
+  display: none;
+  padding: 20px;
+}
+.page.active {
+  display: block;
+}
+input, select, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+video#loginVideo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}
